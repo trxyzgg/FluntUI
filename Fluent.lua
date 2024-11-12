@@ -22,8 +22,8 @@ local Themes = {
 		"Rose",
 		"Sakura",
 		"Lavender",
-		"Mint Breeze",
-		"Sunset Amber"
+		"Mint",
+		"Sunset"
 	},
 	Dark = {
 		Name = "Dark",
@@ -404,8 +404,8 @@ local Themes = {
 		Hover = Color3.fromRGB(120, 120, 200),
 		HoverChange = 0.04,
 	},
-	MintBreeze = {
-		Name = "Mint Breeze",
+	Mint = {
+		Name = "Mint",
 		Accent = Color3.fromRGB(180, 250, 210),
 
 		AcrylicMain = Color3.fromRGB(38, 50, 48),
@@ -459,8 +459,8 @@ local Themes = {
 		Hover = Color3.fromRGB(150, 190, 160),
 		HoverChange = 0.04,
 	},
-	SunsetAmber = {
-		Name = "Sunset Amber",
+	Sunset = {
+		Name = "Sunset",
 		Accent = Color3.fromRGB(255, 190, 150),
 
 		AcrylicBase = Color3.fromRGB(50, 40, 35),
