@@ -488,10 +488,13 @@ local Themes = {
 	
 		SliderRail = Color3.fromRGB(179, 147, 224),
 	
-		DropdownFrame = Color3.fromRGB(179, 147, 224),
-		DropdownHolder = Color3.fromRGB(95, 70, 140),
+		DropdownFrame = ColorSequence.new{
+			ColorSequenceKeypoint.new(0, Color3.fromRGB(55, 45, 85)),
+			ColorSequenceKeypoint.new(1, Color3.fromRGB(35, 30, 60))
+		},
+		DropdownHolder = Color3.fromRGB(55, 45, 90),
 		DropdownBorder = Color3.fromRGB(45, 30, 65),
-		DropdownOption = Color3.fromRGB(179, 147, 224),
+		DropdownOption = Color3.fromRGB(135, 110, 175),
 	
 		Keybind = Color3.fromRGB(140, 110, 185),
 	
