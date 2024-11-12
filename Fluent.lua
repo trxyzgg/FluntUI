@@ -20,7 +20,8 @@ local Themes = {
 		"Aqua",
 		"Amethyst",
 		"Rose",
-		"Sakura"
+		"Sakura",
+		"Solar"
 	},
 	Dark = {
 		Name = "Dark",
@@ -345,7 +346,60 @@ local Themes = {
 		SubText = Color3.fromRGB(220, 220, 220),
 		Hover = Color3.fromRGB(200, 120, 170),
 		HoverChange = 0.04,
+	},
+	Solar = {
+		Name = "Solar",
+		Accent = Color3.fromRGB(255, 191, 71),
+	
+		AcrylicMain = Color3.fromRGB(45, 45, 60),
+		AcrylicBorder = Color3.fromRGB(70, 60, 85),
+		AcrylicGradient = ColorSequence.new{
+			ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 180, 50)),
+			ColorSequenceKeypoint.new(0.5, Color3.fromRGB(255, 140, 70)),
+			ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 90, 30))
+		},
+		AcrylicNoise = 0.85,
+	
+		TitleBarLine = Color3.fromRGB(255, 155, 85),
+		Tab = Color3.fromRGB(220, 140, 80),
+	
+		Element = Color3.fromRGB(235, 165, 100),
+		ElementBorder = Color3.fromRGB(80, 50, 30),
+		InElementBorder = Color3.fromRGB(130, 100, 60),
+		ElementTransparency = 0.75,
+	
+		ToggleSlider = Color3.fromRGB(255, 155, 80),
+		ToggleToggled = Color3.fromRGB(0, 0, 0), 
+	
+		SliderRail = Color3.fromRGB(220, 140, 80),
+	
+		DropdownFrame = Color3.fromRGB(255, 200, 150),
+		DropdownHolder = Color3.fromRGB(120, 80, 50),
+		DropdownBorder = Color3.fromRGB(90, 60, 40),
+		DropdownOption = Color3.fromRGB(235, 165, 100),
+	
+		Keybind = Color3.fromRGB(235, 165, 100),
+	
+		Input = Color3.fromRGB(235, 165, 100),
+		InputFocused = Color3.fromRGB(25, 25, 40),
+		InputIndicator = Color3.fromRGB(255, 190, 80),
+		InputIndicatorFocus = Color3.fromRGB(255, 191, 71),
+	
+		Dialog = Color3.fromRGB(255, 180, 100),
+		DialogHolder = Color3.fromRGB(120, 80, 60),
+		DialogHolderLine = Color3.fromRGB(105, 70, 50),
+		DialogButton = Color3.fromRGB(255, 155, 80),
+		DialogButtonBorder = Color3.fromRGB(190, 140, 85),
+		DialogBorder = Color3.fromRGB(160, 100, 60),
+		DialogInput = Color3.fromRGB(245, 175, 115),
+		DialogInputLine = Color3.fromRGB(255, 190, 120),
+	
+		Text = Color3.fromRGB(255, 240, 220),
+		SubText = Color3.fromRGB(200, 190, 180),
+		Hover = Color3.fromRGB(255, 160, 90),
+		HoverChange = 0.06,
 	}
+
 }
 
 local Library = {
