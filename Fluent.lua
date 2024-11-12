@@ -5338,7 +5338,7 @@ local Icons = {
 	["lucide-message-circle-question"] = "rbxassetid://16970049192",
 	["lucide-webhook"] = "rbxassetid://17320556264",
 	["lucide-dumbbell"] = "rbxassetid://18273453053",
-	["lucide-fish"] = "rbxassetid://126075387199448"
+	["lucide-fish"] = "rbxassetid://133131651884198"
 }
 function Library:GetIcon(Name)
 	if Name ~= nil and Icons["lucide-" .. Name] then
