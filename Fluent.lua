@@ -22,7 +22,8 @@ local Themes = {
 		"Rose",
 		"Sakura",
 		"Lavender",
-		"Sunset"
+		"Mint Breeze",
+		"Sunset Amber"
 	},
 	Dark = {
 		Name = "Dark",
@@ -403,8 +404,63 @@ local Themes = {
 		Hover = Color3.fromRGB(120, 120, 200),
 		HoverChange = 0.04,
 	},
-	Sunset = {
-		Name = "Sunset",
+	MintBreeze = {
+		Name = "Mint Breeze",
+		Accent = Color3.fromRGB(180, 250, 210),
+
+		AcrylicMain = Color3.fromRGB(38, 50, 48),
+		AcrylicBorder = Color3.fromRGB(100, 160, 130),
+		AcrylicGradient = ColorSequence.new{
+			ColorSequenceKeypoint.new(0, Color3.fromRGB(180, 250, 210)),
+			ColorSequenceKeypoint.new(0.25, Color3.fromRGB(205, 255, 225)),
+			ColorSequenceKeypoint.new(0.50, Color3.fromRGB(160, 220, 190)),
+			ColorSequenceKeypoint.new(0.75, Color3.fromRGB(120, 175, 140)),
+			ColorSequenceKeypoint.new(1, Color3.fromRGB(55, 90, 70)),
+		},
+		AcrylicNoise = 0.92,
+
+		TitleBarLine = Color3.fromRGB(105, 150, 120),
+		Tab = Color3.fromRGB(100, 140, 105),
+
+		Element = Color3.fromRGB(180, 215, 185),
+		ElementBorder = Color3.fromRGB(95, 130, 100),
+		InElementBorder = Color3.fromRGB(110, 140, 110),
+		ElementTransparency = 0.86,
+
+		ToggleSlider = Color3.fromRGB(180, 250, 210),
+		ToggleToggled = Color3.fromRGB(180, 250, 210),
+		TransparenToggle = 0.5,
+
+		SliderRail = Color3.fromRGB(180, 250, 210),
+
+		DropdownFrame = Color3.fromRGB(180, 250, 210),
+		DropdownHolder = Color3.fromRGB(110, 150, 120),
+		DropdownBorder = Color3.fromRGB(60, 100, 80),
+		DropdownOption = Color3.fromRGB(180, 250, 210),
+
+		Keybind = Color3.fromRGB(150, 190, 160),
+
+		Input = Color3.fromRGB(150, 190, 160),
+		InputFocused = Color3.fromRGB(210, 240, 220),
+		InputIndicator = Color3.fromRGB(130, 160, 140),
+		InputIndicatorFocus = Color3.fromRGB(180, 250, 210),
+
+		Dialog = Color3.fromRGB(90, 110, 95),
+		DialogHolder = Color3.fromRGB(75, 100, 80),
+		DialogHolderLine = Color3.fromRGB(65, 85, 70),
+		DialogButton = Color3.fromRGB(90, 110, 95),
+		DialogButtonBorder = Color3.fromRGB(125, 155, 130),
+		DialogBorder = Color3.fromRGB(85, 105, 90),
+		DialogInput = Color3.fromRGB(95, 120, 100),
+		DialogInputLine = Color3.fromRGB(160, 190, 170),
+
+		Text = Color3.fromRGB(240, 255, 245),
+		SubText = Color3.fromRGB(215, 235, 225),
+		Hover = Color3.fromRGB(150, 190, 160),
+		HoverChange = 0.04,
+	},
+	SunsetAmber = {
+		Name = "Sunset Amber",
 		Accent = Color3.fromRGB(255, 190, 150),
 
 		AcrylicBase = Color3.fromRGB(50, 40, 35),
