@@ -1779,10 +1779,12 @@ Components.Tab = (function()
 			Type = "Tab",
 		}
 
-		if Icon and (Icon:match("^rbxassetid://") or Icon:match("^rbxasset://")) then
-			Icon = Icon:gsub("%s+", "")
-		else
-			Icon = Library:GetIcon(Icon) or nil
+		if Library:GetIcon(Icon) then
+			Icon = Library:GetIcon(Icon)
+		end
+
+		if Icon == "" or nil then
+			Icon = nil
 		end
 
 		Tab.Frame = New("TextButton", {
@@ -5448,7 +5450,8 @@ local Icons = {
 	["lucide-message-circle-question"] = "rbxassetid://16970049192",
 	["lucide-webhook"] = "rbxassetid://17320556264",
 	["lucide-dumbbell"] = "rbxassetid://18273453053",
-	["lucide-fish"] = "rbxassetid://133131651884198"
+	["lucide-ship"] = "rbxassetid://93775209403062",
+	["lucide-fish"] = "rbxassetid://139903635035942"
 }
 function Library:GetIcon(Name)
 	if Name ~= nil and Icons["lucide-" .. Name] then
