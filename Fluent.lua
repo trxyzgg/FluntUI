@@ -1780,13 +1780,9 @@ Components.Tab = (function()
 		}
 
 		if Icon and (Icon:match("^rbxassetid://") or Icon:match("^rbxasset://")) then
-			Icon = Icon
+			Icon = Icon:gsub("%s+", "")
 		else
-			Icon = Library:GetIcon(Icon)
-		end
-
-		if Icon == "" or nil then
-			Icon = nil
+			Icon = Library:GetIcon(Icon) or nil
 		end
 
 		Tab.Frame = New("TextButton", {
