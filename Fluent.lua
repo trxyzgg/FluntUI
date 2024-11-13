@@ -1779,7 +1779,9 @@ Components.Tab = (function()
 			Type = "Tab",
 		}
 
-		if Library:GetIcon(Icon) then
+		if Icon and (Icon:match("^rbxassetid://") or Icon:match("^rbxasset://")) then
+			Icon = Icon
+		else
 			Icon = Library:GetIcon(Icon)
 		end
 
