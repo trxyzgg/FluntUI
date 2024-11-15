@@ -6039,7 +6039,7 @@ local Minimizer = New("Frame", {
 	New("Frame", {
 		BackgroundColor3 = Color3.fromRGB(0, 0, 0),
 		Size = UDim2.new(1, 0, 1, 0),
-		BackgroundTransparency = 0,
+		BackgroundTransparency = 0.5,
 		BorderSizePixel = 0
 	}, {
 		New("UICorner", {
