@@ -6006,7 +6006,7 @@ end
 local Dragging, DragInput, MousePos, StartPos = false
 
 local MinimizeButton = New("TextButton", {
-	BackgroundTransparency = 1,
+	BackgroundTransparency = 0,
 	Size = UDim2.new(1, 0, 1, 0),
 	BorderSizePixel = 0
 }, {
