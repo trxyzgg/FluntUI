@@ -5281,6 +5281,7 @@ local Icons = {
 	["lucide-screen-share"] = "rbxassetid://10734943193",
 	["lucide-screen-share-off"] = "rbxassetid://10734942967",
 	["lucide-scroll"] = "rbxassetid://10734943448",
+	["lucide-scroll-text"] = "rbxassetid://120159799499103",
 	["lucide-search"] = "rbxassetid://10734943674",
 	["lucide-send"] = "rbxassetid://10734943902",
 	["lucide-separator-horizontal"] = "rbxassetid://10734944115",
